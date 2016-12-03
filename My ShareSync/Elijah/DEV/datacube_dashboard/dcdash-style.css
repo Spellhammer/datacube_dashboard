@@ -1,0 +1,76 @@
+#wrapper {
+    padding: 2.5%;
+}
+
+#left-column, #right-column {
+    display: block;
+    float: left;
+    padding: 2.5%;
+    width: 35%;
+    min-width: 345px;
+}
+
+.horizontal-line {
+    border-bottom: solid slategrey 2px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+#dc_dash_nav {
+    min-height: 30px;
+    width: 100%;
+    padding-top: 5px;
+}
+
+a.dc_dash_nav_btn {
+    cursor: pointer;
+    height: 100%;
+    -webkit-border-radius: 4;
+    -moz-border-radius: 4;
+    border-radius: 4px;
+    -webkit-box-shadow: 0px 1px 3px #666666;
+    -moz-box-shadow: 0px 1px 3px #666666;
+    box-shadow: 0px 1px 3px #666666;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 16px;
+    background: #fc8585;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+a.dc_dash_nav_btn:hover {
+    background: #D5D5D5;
+    color: #2e2e30;
+    text-decoration: none;
+}
+
+#brand-list tr:hover {
+    background-color: #D5D5D5 !important;
+}
+
+.dc_dash_err_row {
+    background-color: #fcaeae !important;
+}
+
+.dc_dash_semi_row {
+    background-color: #ffd7a3 !important;
+}
+
+.dc_dash_good_row {
+    background-color: #a3ffba !important;
+}
+
+#dc_upload {
+    float: right;
+    background-color: #D5D5D5;
+}
+
+#dc_header_wrapper div {
+    display: inline-block;
+    padding: 10px;
+}
+
+#wpfooter {
+    position: initial;
+}
